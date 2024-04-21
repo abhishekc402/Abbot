@@ -37,14 +37,7 @@ if "chat_session" not in st.session_state:
 
 # Display the chatbot's title on the page
 st.title("🎵RhythmBot")
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
