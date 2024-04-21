@@ -14,15 +14,7 @@ st.set_page_config(
     page_icon=":brain:",  # Favicon emoji
     layout="centered",  # Page layout option
 )
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            div.embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 GOOGLE_API_KEY = "AIzaSyBiYZfv_wAVGl_gTWGd-m0NUFCsb40FPts"
 
 # Set up Google Gemini-Pro AI model
