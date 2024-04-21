@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
 import os
 import google.generativeai as ggi
 
-load_dotenv(".env")
+#load_dotenv(".env")
 
 fetcheed_api_key = os.getenv("AIzaSyBiYZfv_wAVGl_gTWGd-m0NUFCsb40FPts")
 ggi.configure(api_key = "AIzaSyBiYZfv_wAVGl_gTWGd-m0NUFCsb40FPts")
